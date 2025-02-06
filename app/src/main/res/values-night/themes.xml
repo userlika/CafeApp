@@ -4,4 +4,4 @@
         <!-- Customize your dark theme here. -->
         <item name="colorPrimary">@color/coffee</item>
     </style>
-</resources>git remote add origin git@github.com:userlika/CafeApp.git
+</resources>
