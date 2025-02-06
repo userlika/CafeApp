@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">CafeApp</string>
+    <string name="tw_greetings">Good morning!</string>
+    <string name="et_name_hint">Input your name</string>
+    <string name="et_password_hint">Input your passwors</string>
+    <string name="button_sign_in">Sign in</string>
+</resources>
