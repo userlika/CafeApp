@@ -12,6 +12,7 @@
     <string name="chb_milk">Milk</string>
     <string name="chb_lemon">Lemon</string>
     <string name="tw_drink_type">Choose drink type:</string>
+    <string name="btn_make_an_order">Make an order</string>
     <array name="types_of_tea">
         <item>Green</item>
         <item>Black</item>
