@@ -4,4 +4,26 @@
     <string name="et_name_hint">Input your name</string>
     <string name="et_password_hint">Input your passwors</string>
     <string name="button_sign_in">Sign in</string>
+    <string name="tw_make_order">Good morning, %s! \n What would you like to order?</string>
+    <string name="rb_tea">Tea</string>
+    <string name="rb_coffee">Coffee</string>
+    <string name="tw_additives">What would you like to add in your drinks?</string>
+    <string name="chb_sugar">Sugar</string>
+    <string name="chb_milk">Milk</string>
+    <string name="chb_lemon">Lemon</string>
+    <string name="tw_drink_type">Choose drink type:</string>
+    <array name="types_of_tea">
+        <item>Green</item>
+        <item>Black</item>
+        <item>Mint</item>
+        <item>Milk Ulun</item>
+    </array>
+
+    <array name="types_of_coffee">
+        <item>Americano</item>
+        <item>Cappuccino</item>
+        <item>Espresso</item>
+        <item>Latte</item>
+        <item>Raf</item>
+    </array>
 </resources>
