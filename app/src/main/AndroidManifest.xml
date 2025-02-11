@@ -13,6 +13,9 @@
         android:theme="@style/Theme.CafeApp"
         tools:targetApi="31">
         <activity
+            android:name=".OrderDetailActivity"
+            android:exported="false" />
+        <activity
             android:name=".MakeOrderActivity"
             android:exported="false" />
         <activity

@@ -13,6 +13,10 @@
     <string name="chb_lemon">Lemon</string>
     <string name="tw_drink_type">Choose drink type:</string>
     <string name="btn_make_an_order">Make an order</string>
+    <string name="tw_name">Name:</string>
+    <string name="tw_drink">Drink:</string>
+    <string name="drink_type">Drink type:</string>
+    <string name="additives">Additives:</string>
     <array name="types_of_tea">
         <item>Green</item>
         <item>Black</item>
