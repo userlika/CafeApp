@@ -1,4 +1,3 @@
-*.iml
 .gradle
 /local.properties
 /.idea/caches
@@ -13,3 +12,20 @@
 .externalNativeBuild
 .cxx
 local.properties
+# Ignore all .log files
+*.log
+
+# Ignore a specific file
+config_secret.json
+
+# Ignore a directory (e.g., build folders)
+/build/
+/app/build/
+
+# Android Studio specific files
+.idea/
+.gradle/
+*.iml
+
+# Local environment files
+.env

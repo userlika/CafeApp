@@ -1,5 +1,6 @@
 package com.likabarken.cafeapp;
 
+import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -33,5 +34,11 @@ public class MakeOrderActivity extends AppCompatActivity {
                 MakeOrderActivity.this.startActivity(intent);
             }
         });
+    }
+
+    public static Intent newIntent(Context context, String userName){
+        Intent intent = new Intent(context, MakeOrderActivity.class);
+        intent.putExtra("userName", userName);
+        return intent;
     }
 }

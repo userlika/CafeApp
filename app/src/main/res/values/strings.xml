@@ -17,6 +17,8 @@
     <string name="tw_drink">Drink:</string>
     <string name="drink_type">Drink type:</string>
     <string name="additives">Additives:</string>
+    <string name="error_fields_empty"> Please fill all fields!</string>
+
     <array name="types_of_tea">
         <item>Green</item>
         <item>Black</item>
