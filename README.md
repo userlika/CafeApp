@@ -20,7 +20,7 @@ Here are some screenshots of the app (replace these with your actual screenshots
 
 | **Home Screen** | **Order Screen** | **Confirmation Screen** |
 |-----------------|------------------|-------------------------|
-| ![Home Screen](./screenshots/screenshot_home.png) | ![Order Screen](./screenshots/screenshot_order.png) | ![Confirmation Screen](./screenshots/screenshot_confirmation.png) |
+| ![Home Screen](./screenshots/screenshot_home.jpg) | ![Order Screen](./screenshots/screenshot_order.jpg) | ![Confirmation Screen](./screenshots/screenshot_confirmation.jpg) |
 
 ---
 
