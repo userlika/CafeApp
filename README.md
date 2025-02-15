@@ -16,7 +16,7 @@ Welcome to **CaffeApp**, an Android application designed for educational purpose
 
 ## Screenshots 📸
 
-Here are some screenshots of the app (replace these with your actual screenshots):
+Here are some screenshots of the app :
 
 | **Home Screen** | **Order Screen** | **Confirmation Screen** |
 |-----------------|------------------|-------------------------|
@@ -57,13 +57,13 @@ Here are some screenshots of the app (replace these with your actual screenshots
 
 **By exploring this project, you will learn**:
 
-    - How to design and implement a multi-activity Android app.
+   - How to design and implement a multi-activity Android app.
 
-    - How to use Intents to pass data between activities.
+   - How to use Intents to pass data between activities.
 
-    - How to format and display localized date and time.
+   - How to format and display localized date and time.
 
-    - Best practices for structuring an Android project.
+   - Best practices for structuring an Android project.
 
 ## Acknowledgments 🙏
 
