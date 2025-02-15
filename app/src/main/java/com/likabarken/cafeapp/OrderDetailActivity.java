@@ -13,6 +13,9 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
+import java.text.SimpleDateFormat;
+import java.util.Date;
+import java.util.Locale;
 import java.util.ArrayList;
 
 public class OrderDetailActivity extends AppCompatActivity {
@@ -21,7 +24,7 @@ public class OrderDetailActivity extends AppCompatActivity {
     private static final String EXTRA_DRINK_TYPE = "drinkType";
     private static final String EXTRA_ADDITIVES = "additives";
 
-    private TextView textViewName, textViewDrink, textViewDrinkType, textViewAdditives;
+    private TextView textViewDate, textViewReceivedOrder, textViewDrink, textViewDrinkType, textViewAdditives;
 
     private String name, drink, drinkType, additives;
 
@@ -42,7 +45,8 @@ public class OrderDetailActivity extends AppCompatActivity {
     }
 
     private void initViews() {
-        textViewName = findViewById(R.id.textViewName);
+        textViewDate = findViewById(R.id.textViewDate);
+        textViewReceivedOrder = findViewById(R.id.textViewReceivedOrder);
         textViewDrink = findViewById(R.id.textViewDrink);
         textViewDrinkType = findViewById(R.id.textViewDrinkType);
         textViewAdditives = findViewById(R.id.textViewAdditives);
@@ -50,7 +54,10 @@ public class OrderDetailActivity extends AppCompatActivity {
 
     private void setupTextViews() {
         name = getIntent().getStringExtra(EXTRA_NAME);
-        textViewName.setText(name);
+        textViewReceivedOrder.setText(getString(R.string.s_your_order_is_received, name));
+
+        String current_date = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss", Locale.US).format(new Date());
+        textViewDate.setText(current_date);
 
         drink = getIntent().getStringExtra(EXTRA_DRINK);
         textViewDrink.setText(drink);

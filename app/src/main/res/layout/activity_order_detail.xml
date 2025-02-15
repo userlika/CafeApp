@@ -12,81 +12,154 @@
         android:layout_height="wrap_content"
         android:orientation="vertical">
 
-        <TextView
+        <ImageView
             android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:adjustViewBounds="true"
+            android:layout_weight="1"
+            android:contentDescription="@string/app_name"
+            app:srcCompat="@drawable/order_delivery"
+            />
+
+        <TextView
+            android:id="@+id/textViewReceivedOrder"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="24dp"
-            android:text="@string/tw_name"
+            android:textAlignment="center"
+            android:text="@string/s_your_order_is_received"
             android:fontFamily="@font/agbalumo"
             android:textColor="@color/coffee"
-            android:textSize="48sp"
+            android:textSize="28sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="@string/stars"
+            android:textColor="@color/coffee" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:fontFamily="@font/azeret_mono_thin"
+            android:text="@string/receipt"
+            android:textAlignment="center"
+            android:textColor="@color/coffee"
+            android:textSize="18sp"
             android:textStyle="bold" />
 
         <TextView
-            android:id="@+id/textViewName"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textSize="48sp"
-            android:textColor="@color/brownie"
-            android:textStyle="italic"
-            android:layout_margin="24dp"/>
+            android:textAlignment="center"
+            android:text="@string/stars"
+            android:textColor="@color/coffee" />
 
         <TextView
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="@string/address"
+            android:textColor="@color/coffee" />
+
+        <TextView
+            android:id="@+id/textViewDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text=""
+            android:textColor="@color/coffee" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="@string/stars"
+            android:textColor="@color/coffee" />
+
+        <TextView
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/tw_drink"
-            android:fontFamily="@font/agbalumo"
+            android:textAlignment="center"
             android:textColor="@color/coffee"
-            android:textSize="48sp"
+            android:textSize="24sp"
             android:textStyle="bold"
-            android:layout_margin="24dp"/>
+            android:layout_margin="8dp"/>
 
         <TextView
             android:id="@+id/textViewDrink"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textSize="48sp"
+            android:textSize="18sp"
+            android:textAlignment="center"
             android:textColor="@color/brownie"
             android:textStyle="italic"
-            android:layout_margin="24dp"/>
+            android:layout_margin="8dp"/>
 
         <TextView
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/drink_type"
-            android:fontFamily="@font/agbalumo"
+            android:textAlignment="center"
             android:textColor="@color/coffee"
-            android:textSize="48sp"
+            android:textSize="24sp"
             android:textStyle="bold"
-            android:layout_margin="24dp"/>
+            android:layout_margin="8dp"/>
 
         <TextView
             android:id="@+id/textViewDrinkType"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textSize="48sp"
+            android:textSize="18sp"
+            android:textAlignment="center"
             android:textColor="@color/brownie"
             android:textStyle="italic"
-            android:layout_margin="24dp"/>
+            android:layout_margin="8dp"/>
 
         <TextView
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/additives"
-            android:fontFamily="@font/agbalumo"
+            android:textAlignment="center"
             android:textColor="@color/coffee"
-            android:textSize="48sp"
+            android:textSize="24sp"
             android:textStyle="bold"
-            android:layout_margin="24dp"/>
+            android:layout_margin="8dp"/>
 
         <TextView
             android:id="@+id/textViewAdditives"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textSize="48sp"
+            android:textSize="18sp"
+            android:textAlignment="center"
             android:textColor="@color/brownie"
             android:textStyle="italic"
-            android:layout_margin="24dp"/>
+            android:layout_margin="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="@string/stars"
+            android:textColor="@color/coffee" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="@string/enjoy_your_meal"
+            android:textColor="@color/coffee" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="@string/stars"
+            android:textColor="@color/coffee" />
 
     </LinearLayout>
 </ScrollView>

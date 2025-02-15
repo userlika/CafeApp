@@ -2,5 +2,6 @@
 <resources>
     <array name="preloaded_fonts" translatable="false">
         <item>@font/agbalumo</item>
+        <item>@font/azeret_mono_thin</item>
     </array>
 </resources>

@@ -18,6 +18,11 @@
     <string name="drink_type">Drink type:</string>
     <string name="additives">Additives:</string>
     <string name="error_fields_empty"> Please fill all fields!</string>
+    <string name="s_your_order_is_received">%s, your order is received. \n Thank you!</string>
+    <string name="receipt">RECEIPT</string>
+    <string name="stars">**************************************************</string>
+    <string name="address">123 Main St, Springfield, IL 62704</string>
+    <string name="enjoy_your_meal">ENJOY YOUR MEAL!</string>
 
     <array name="types_of_tea">
         <item>Green</item>
