@@ -38,7 +38,7 @@ Here are some screenshots of the app (replace these with your actual screenshots
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/your-username/CaffeApp.git
+   git clone https://github.com/userlika/CaffeApp.git
 
    ```
 2. **Open the Project in Android Studio**:
@@ -64,3 +64,8 @@ Here are some screenshots of the app (replace these with your actual screenshots
     - How to format and display localized date and time.
 
     - Best practices for structuring an Android project.
+
+## Acknowledgments 🙏
+
+   - Thanks to Andrey Sumin - the author of android course.
+   - Inspired by [Android разработка: Базовый курс + Основы программирования](https://stepik.org/course/121507).
