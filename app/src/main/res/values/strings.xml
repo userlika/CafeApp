@@ -7,7 +7,7 @@
     <string name="tw_make_order">Good morning, %s! \n What would you like to order?</string>
     <string name="rb_tea">Tea</string>
     <string name="rb_coffee">Coffee</string>
-    <string name="tw_additives">What would you like to add in your drinks?</string>
+    <string name="tw_additives">What would you like to add in your %s?</string>
     <string name="chb_sugar">Sugar</string>
     <string name="chb_milk">Milk</string>
     <string name="chb_lemon">Lemon</string>

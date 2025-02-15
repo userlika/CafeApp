@@ -12,7 +12,7 @@
         android:id="@+id/textViewGreetings"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="8dp"
+        android:layout_marginTop="50dp"
         android:text="@string/tw_make_order"
         android:textAlignment="center"
         android:textColor="@color/coffee"
@@ -52,7 +52,7 @@
         android:id="@+id/textViewAdditives"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="8dp"
+        android:layout_margin="20dp"
         android:text="@string/tw_additives"
         android:textAlignment="center"
         android:textColor="@color/coffee"
@@ -69,7 +69,6 @@
         android:text="@string/chb_sugar"
         android:textColor="@color/coffee"
         app:layout_constraintEnd_toStartOf="@+id/checkBoxMilk"
-        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/checkBoxMilk"
         app:layout_constraintBottom_toBottomOf="@+id/checkBoxMilk"/>
@@ -81,7 +80,6 @@
         android:text="@string/chb_milk"
         android:textColor="@color/coffee"
         app:layout_constraintEnd_toStartOf="@+id/checkBoxLemon"
-        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/checkBoxSugar"
         app:layout_constraintTop_toBottomOf="@+id/textViewAdditives" />
 
@@ -92,7 +90,6 @@
         android:text="@string/chb_lemon"
         android:textColor="@color/coffee"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/checkBoxMilk"
         app:layout_constraintTop_toTopOf="@+id/checkBoxMilk"
         app:layout_constraintBottom_toBottomOf="@+id/checkBoxMilk"/>
