@@ -11,7 +11,7 @@
 /captures
 .externalNativeBuild
 .cxx
-local.properties
+
 # Ignore all .log files
 *.log
 
@@ -29,3 +29,20 @@ config_secret.json
 
 # Local environment files
 .env
+
+# Built files
+/build/
+/*/build/
+
+# Local configuration files
+local.properties
+
+# Log files
+*.log
+
+# Keystore files
+*.jks
+*.keystore
+
+# Other files
+.DS_Store
