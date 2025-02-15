@@ -5,6 +5,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.TextView;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -20,6 +21,10 @@ public class OrderDetailActivity extends AppCompatActivity {
     private static final String EXTRA_DRINK_TYPE = "drinkType";
     private static final String EXTRA_ADDITIVES = "additives";
 
+    private TextView textViewName, textViewDrink, textViewDrinkType, textViewAdditives;
+
+    private String name, drink, drinkType, additives;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -31,8 +36,32 @@ public class OrderDetailActivity extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
+
+        initViews();
+        setupTextViews();
     }
 
+    private void initViews() {
+        textViewName = findViewById(R.id.textViewName);
+        textViewDrink = findViewById(R.id.textViewDrink);
+        textViewDrinkType = findViewById(R.id.textViewDrinkType);
+        textViewAdditives = findViewById(R.id.textViewAdditives);
+    }
+
+    private void setupTextViews() {
+        name = getIntent().getStringExtra(EXTRA_NAME);
+        textViewName.setText(name);
+
+        drink = getIntent().getStringExtra(EXTRA_DRINK);
+        textViewDrink.setText(drink);
+
+        drinkType = getIntent().getStringExtra(EXTRA_DRINK_TYPE);
+        textViewDrinkType.setText(drinkType);
+
+        additives = getIntent().getStringExtra(EXTRA_ADDITIVES);
+        textViewAdditives.setText(additives);
+
+    }
     public static Intent newIntent(
             Context context,
             String userName,
